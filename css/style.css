@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-image: url(/img/cat\ 01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* h1 {
+    background-color: rgb(252, 205, 42);
+    color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}*/
+p{
+    color: rgb(234,212,180);
+} 
+
+#cat1 {
+    background-color: rgb(252, 205, 42);
+    color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    /* margin: 50px; */
+    /* padding: 50px; */
+    /* padding-left:10px ;
+    padding-right: 20px;
+    padding-top:30px ;
+    padding-bottom: 40px; */
+
+    padding: 10px 10px 10px 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 10px solid rgb(234,212,180);
+}
+
+.cat2 {
+    background-color: rgb(143, 125, 111);
+    color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+
+}
+
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* position: relative; */
+    position: absolute;
+    top: 600px;
+    left: 20px
+    ;
+}
+
+.box3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(153,98,50);
+    left: 90%;
+    top: 80%;
+    position: fixed;
+    /* z-index: -1; */
+    z-index: -1;
+}
+
+.box4{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    top: 0;
+    left: 90%;
+    position: sticky;
+    
+}
